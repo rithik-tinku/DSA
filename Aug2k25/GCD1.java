@@ -1,4 +1,4 @@
-//exceeded timelimit solution
+//exceeded timelimit solution (chatgpt)
 class GCD1 {
     public int GCD(int n1, int n2) {
         int n3 = n1;

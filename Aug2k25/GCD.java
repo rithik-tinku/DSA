@@ -1,11 +1,10 @@
 //bruteforce
 class GCD {
-    public int GCD(int n1, int n2) {
+    public int gcd(int n1, int n2) {// capital letters lo constructor peduthe warning osthadi
         int max=0;
-        int temp;
         int m;
         if(n1==n2){
-            return n1;
+            return n1; // renditlo edhaina
         }
         if(n1>n2){
             m = n1;
@@ -15,7 +14,7 @@ class GCD {
         }
         for(int i=1; i<m; i++){
             if (n1%i==0 && n2%i==0){
-                temp =i;
+                int temp =i;
                 if(max<temp){
                     max = temp;
                 }
@@ -25,6 +24,6 @@ class GCD {
     }
     public static void main(String[] args) {
         GCD gcd = new GCD();
-        System.out.println(gcd.GCD(10, 10));
+        System.out.println(gcd.gcd(8,12 ));
     }
 }
